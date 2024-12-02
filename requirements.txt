@@ -1,1 +1,1 @@
-numba-pokemon-prngs @ git+https://github.com/Lincoln-LM/numba_pokemon_prngs@efecc128fe542e057e122bfc082047d83cb9ffdd
+numba-pokemon-prngs[numba] @ git+https://github.com/Lincoln-LM/numba_pokemon_prngs@efecc128fe542e057e122bfc082047d83cb9ffdd
