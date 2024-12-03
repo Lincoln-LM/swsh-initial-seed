@@ -52,6 +52,9 @@ if __name__ == "__main__":
                 if all(rng.next_rand(2) == observation for observation in observations):
                     results.append((initial_seed, advance, current_state))
         seed_count = len(results)
+        if seed_count == 0:
+            print("No seeds found")
+            continue
         print(
             f"{seed_count} possible initial seeds, record ~{log2(seed_count)} more motions"
         )
